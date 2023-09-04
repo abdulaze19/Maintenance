@@ -25,7 +25,7 @@ color: rgb(235, 243, 0);
 
 body h2 {
     text-align: center;
-    color: rgb(238, 255, 0);
+    color: rgb(235, 243, 0);
     padding-top: 200px;
     font-size: 50px;
     font-weight: 90;
@@ -39,7 +39,7 @@ body h2 {
 }
 }
 
-body h3 {
+body main h3 {
     text-shadow: 1px 5px gray;
     text-align: center;
     color: rgb(255, 255, 255);
@@ -50,41 +50,40 @@ body h3 {
 }
 
 @media screen and (max-width: 600px){
-    body h3 {
+    body main h3 {
         font-size: 40px;
     }
     }
 
 
-
-.carpett img {
-    position: absolute;
-    width: 420px;
-    height: 380px;
-    top: 700px;
-    left: 10px;
-    border-radius: 50px;
-}
-
-.walls img {
-    position: absolute;
-    width: 420px;
-    height: 380px;
-    top: 700px;
-    right: 10px;
-    border-radius: 50px;
-}
-
-.paint img {
-    position: absolute;
-    width: 420px;
-    height: 380px;
-    top: 700px;
-    right: 520px;
-    border-radius: 50px;
-}
-
 main {
     display: flex;
     flex-wrap: wrap;
+}
+
+footer h1 {
+    text-align: center;
+    color: rgb(235, 243, 0);
+    padding-top: 100px;
+    font-weight: 90;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif
+}
+
+footer h2 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    font-weight: 90;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif
+}
+
+footer h3 {
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 10px;
+    font-weight: 90;
+    font-size: 50px;
+    font-family:'Times New Roman', Times, serif
 }
